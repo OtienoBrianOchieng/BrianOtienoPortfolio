@@ -28,8 +28,7 @@ body {background-image:url(images/Star.avif);
 }
 /* targetting all h1 title */
 h1 {
-    color: #06D61B;
-    text-decoration: underline black;
+    color: black;
     font-weight: bold;
 }
 /* targetting h2 element */
@@ -100,4 +99,22 @@ h1 {
 }
 #container .portfolio .projects dt {
    font-weight: bold;
+}
+/* working on the leave comment section */
+.comment .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#feedback {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 100px;
+
+}
+.comment #feedback {
+    margin: 30px;
 }
