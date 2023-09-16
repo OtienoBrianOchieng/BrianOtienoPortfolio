@@ -1,10 +1,12 @@
+/* the website bodya nd background setting */
 body {background-image:url(images/Star.avif); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-color: #f2f2f2;
-}
+    }
+/* navigation bar setting */
 
 #header ul{
     display: flex;
@@ -23,6 +25,14 @@ body {background-image:url(images/Star.avif);
     text-decoration: none;
     font-size: 20px;
 }
+/* targetting all h1 title */
 h1 {
     color: #06D61B;
+}
+
+/* targetting the entire body contents */
+#container{
+    text-align: center;
+    line-height: 10vh;
+    height: 100vh;
 }
