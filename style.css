@@ -29,13 +29,21 @@ body {background-image:url(images/Star.avif);
 h1 {
     color: #06D61B;
 }
-
+/* targetting h2 element */
+#container h2{
+    color: white;
+    text-align: left;
+    text-size-adjust: 50px;
+    margin: 5px;
+    padding: 10px 50px 5px 100px;
+}
 /* targetting the entire body contents */
 #container{
     text-align: center;
     line-height: 5vh;
     height: 100vh;
 }
+/* targetting all paragraphs in the container */
 #container p {
     text-align: left;
     margin: 5px;
