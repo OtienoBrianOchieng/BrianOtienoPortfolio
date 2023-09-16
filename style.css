@@ -1,6 +1,10 @@
-body {background: black;
-
+body {background-image:url(images/Star.avif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #f2f2f2;
 }
 h1 {
-    background: green;
+    color: #06D61B;
 }
