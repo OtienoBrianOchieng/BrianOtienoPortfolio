@@ -29,6 +29,7 @@ body {background-image:url(images/Star.avif);
 /* targetting all h1 title */
 h1 {
     color: #06D61B;
+    text-decoration: underline black;
 }
 /* targetting h2 element */
 #container h2{
@@ -49,8 +50,33 @@ h1 {
     text-align: left;
     margin: 5px;
     padding: 5px 100px 0px 100px;
+    font-size: 20px;
 }
 /* divs backgroung change from clear to transliscent */
 #container .intro {
+    background-color: rgba(116, 181, 181, 0.7);
+    margin: 0;
+    padding: 10px 50px 10px 50px;
 
+}
+#container .about {
+    background-color: rgba(235, 112, 5, 0.7);
+    margin: 0;
+    padding: 10px 50px 10px 50px;
+}
+#container .portfolio {
+    background-color: rgba(144, 116, 181, 0.7);
+    margin: 0;
+    padding: 10px 50px 10px 50px;
+
+}
+#container .comment {
+    background-color: rgba(181, 116, 152, 0.7);
+    margin: 0;
+    padding: 10px 50px 10px 50px;
+}
+#container .contacts {
+    background-color: rgba(0, 5, 5, 0.7);
+    margin: 0;
+    padding: 10px 50px 10px 50px;
 }
