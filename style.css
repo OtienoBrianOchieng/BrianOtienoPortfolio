@@ -7,7 +7,6 @@ body {background-image:url(images/Star.avif);
     background-color: #f2f2f2;
     }
 /* navigation bar setting */
-
 #header ul{
     display: flex;
     flex-direction: row;
@@ -32,7 +31,11 @@ body {background-image:url(images/Star.avif);
     color: blue;
     transform: scale(1.2);
 }
-
+/* targetting img */
+img {
+    border-radius: 50%;
+    margin: 0;
+}
 /* targetting all h1 title */
 h1 {
     color: black;
