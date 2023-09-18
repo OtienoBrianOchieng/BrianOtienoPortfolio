@@ -52,14 +52,16 @@
         <span class="form">
             <span>
                 <form>
-                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" id="clientName" name="name" placeholder="Your Name" required>
                         <input type="text" name="email" placeholder="Your Email">
-                        <textarea name="message" rows="6" placeholder="Your Feedback"></textarea>
-                        <button type="button" class="btn" >Submit</button>
+                        <textarea name="message" id="clientReply" rows="6" placeholder="Your Feedback"></textarea>
+                        <button type="button" id="submitBtn" class="btn" >Submit</button>
                 </form>
             </span>
             <span>
+                <p id="idResponded"></p>
                 <p id="feedback"></p>
+                <p id="yourName"></p>
             </span>
         </span>
         </div>

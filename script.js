@@ -1,12 +1,7 @@
-
-let identity;
-let message;
-let submit;
-
-document.getElementById("submit").onclick= function (){
-    identity= getElementById("name").value;
-    message=getElementById("message").value;
-    document.getElementById("feedback").innerHTML= `Thank you ${identity} for your observation. 
-    We value your opinion and are commeited to collaboration
-    ${message}`    
+document.getElementById("submitBtn").onclick= function (){
+    clientReply= document.getElementById("clientReply").value;
+    clientName=document.getElementById("clientName").value;
+    document.getElementById("feedback").innerHTML=clientReply;
+    document.getElementById("yourName").innerHTML= `Thank you ${clientName} for your feedback`;
+    document.getElementById("idResponded").innerHTML= `${clientName} responded`;
 }
